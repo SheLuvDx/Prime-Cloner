@@ -1,10 +1,10 @@
-mytitle = "Prime Cloner - Developed by Primelus"
+mytitle = "PrimeCloner - Developed by Primelus"
 from os import remove, system
 system("title "+mytitle)
 import discord
 import asyncio
 from colorama import AnsiToWin32, Fore, init, Style
-from casa import Clone
+from prime import Clone
 import webbrowser
 import requests
 client = discord.Client()
@@ -83,12 +83,12 @@ def mainanswer():
     if answer == '1':
         cloner()
     elif answer == '2':
-        casa()
+        prime()
     else:
         print('Incorrect selection, please choose a number')
         mainanswer()
 
-def casa():
+def prime():
     webbrowser.open_new('https://discord.gg/prime')
     cls()
     mainanswer()
