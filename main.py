@@ -74,7 +74,7 @@ def mainanswer():
 
     print(f'''                                    Logged As {userName} ({userID})''')
     print('\n')
-    print(f'                            [1] > {Fore.RED}Clone Server{Style.RESET_ALL}                 [2] > {Fore.MAGENTA}Support Server{Style.RESET_ALL}')
+    print(f'                            [1] > {Fore.RED}Clone Server{Style.RESET_ALL}                 [2] > {Fore.MAGENTA}Support Telegram{Style.RESET_ALL}')
     print('\n')
     print('\n')
 
@@ -89,7 +89,7 @@ def mainanswer():
         mainanswer()
 
 def prime():
-    webbrowser.open_new('https://discord.gg/prime')
+    webbrowser.open_new('https://t.me/PrimeStealer')
     cls()
     mainanswer()
 
